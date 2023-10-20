@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "npx ts-node src/routes/server.ts"
+    "dev": "npx ts-node src/routes/server.ts",
+    "build": "tsc -p .",
+    "start": "node ./dist/routes/server.js"
   },
   "keywords": [],
   "author": "",
