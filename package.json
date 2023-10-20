@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "npx ts-node src/routes/server.ts",
     "build": "tsc -p .",
-    "start": "node ./dist/routes/server.js"
+    "start": "node ./dist/routes/server.js && prisma generate"
   },
   "keywords": [],
   "author": "",
